@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Product</title>
+<style>
+	div{
+		display:grid;
+		width:430px;
+		margin:50px auto;
+		grid-template-columns:130px 300px;
+		grid-gap:10px;
+	}
+	h2{
+		text-align:center;
+	}
+	</style>
+</head>
+<body>
+		<h2>Add Product</h2>
+		<form action="add" method="post">
+			<div>
+			<label>Product Code:</label><label><input type="text" name="code"/></label>
+			<label>Product Name:</label><label><input type="text" name="name"/></label>
+			<label>Product Price:</label><label><input type="text" name="price"/></label>
+			<label>Product Quantity:</label><label><input type="text" name="qty"/></label>
+			<label></label><label><input type="submit" value="Add Product"/></label>
+			</div>
+		</form>
+	
+</body>
+</html>
